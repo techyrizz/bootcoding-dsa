@@ -18,15 +18,16 @@ public class SinlgyLinkedList {
             forthNode.next = null;
             return head;
         }
-
         public static void printLinkedList (Node head)
         {
             Node temp = head;
+            int count = 0;
             while (temp != null) {
-                System.out.println(temp.data);
+                count++;
+                System.out.println(temp.data );
                 temp = temp.next;
+
             }
+
         }
-
-
-}
+    }
